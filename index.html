@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Combinators Challenge</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style type="text/css">
+body {
+ background-color:orange;
+ background-size: cover;
+ background-position: center;
+     height: 80vh;
+ }
+/* Header Section */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+h2::first-letter {
+color:yellow;
+font-size: xx-large;
+}
+.my-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: black;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #45a049;
+}
+</style>
+<body>
+<header>
+<h1>Welcome to My Webpage
+</header>
+<aside>
+</h2><center>[WELCOME TO MY WEBSITE ABOUT TO PSEUDO-ELEMENTS]</center></h2>
+</aside>
+<center><button class="my-button">Click Here</button></center>
+</body>
+</html>
